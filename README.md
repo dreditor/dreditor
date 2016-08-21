@@ -3,7 +3,7 @@ A web browser extension for Drupal.org that enhances user experience and
 functionality.
 
 ## Installation
-To install Dreditor in your browser, visit https://dreditor.org
+To install Dreditor in your browser, visit https://dreditor.github.io
 
 ## Development
 
