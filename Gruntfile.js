@@ -69,24 +69,19 @@ module.exports = function(grunt) {
     },
     jshint: {
       options: {
-        reporter: optionalDependencies ? require('jshint-stylish') : undefined
+        jshintrc: '.jshintrc',
+        reporter: optionalDependencies ? require('jshint-stylish') : undefined,
+        reporterOutput: ""
       },
       package: {
-        options: {
-          jshintrc: '.jshintrc'
-        },
-        src: 'package.json'
+        files: {
+          src: 'package.json'
+        }
       },
       gruntfile: {
-        options: {
-          jshintrc: '.jshintrc'
-        },
         src: 'Gruntfile.js'
       },
       js: {
-        options: {
-          jshintrc: '.jshintrc'
-        },
         src: 'src/js/**/*.js'
       }
     },
