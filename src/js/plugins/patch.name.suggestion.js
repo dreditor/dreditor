@@ -24,6 +24,8 @@ Drupal.behaviors.dreditorPatchNameSuggestion = {
 
         var title = truncateString(Drupal.dreditor.issue.getIssueTitle() || '', 25, true);
 
+        patchName += Drupal.dreditor.issue.getProjectShortName() + '-';
+
         // Truncate and remove a heading/trailing underscore.
         patchName += title.replace(/[^a-zA-Z0-9]+/g, '_').replace(/(^_|_$)/, '').toLowerCase();
 
@@ -32,6 +34,7 @@ Drupal.behaviors.dreditorPatchNameSuggestion = {
           patchName += (patchName.length ? '-' : '') + nid;
         }
         patchName += '-' + Drupal.dreditor.issue.getNewCommentNumber();
+        patchName += '-' + Drupal.dreditor.issue.getSelectedDrupalVersion();
         patchName += '.patch';
 
         window.prompt("Please use this value", patchName);
