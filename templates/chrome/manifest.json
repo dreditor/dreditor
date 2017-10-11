@@ -10,7 +10,7 @@
     {
       "matches": [
         "*://*.drupal.org/*",
-        "*://*.dreditor.org/*",
+        "*://*.dreditor.github.io/*",
         "*://*.devdrupal.org/*"
       ],
       "js": ["%PKG.NAME%.js"]
@@ -18,7 +18,7 @@
   ],
   "permissions": [
     "*://*.drupal.org/*",
-    "*://*.dreditor.org/*",
+    "*://*.dreditor.github.io/*",
     "*://*.devdrupal.org/*"
   ]
 }

@@ -216,7 +216,7 @@ deleted after merging it into the mainline.
 **Note:**
 
 1. Installing a development build of Dreditor will **replace** the extension
-   installed from dreditor.org.
+   installed from dreditor.github.io.
 1. Whenever loading a custom build into your browser, make sure that you have
    **only one** Dreditor extension enabled at the same time.
 
