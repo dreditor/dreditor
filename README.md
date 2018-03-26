@@ -2,6 +2,8 @@
 A web browser extension for Drupal.org that enhances user experience and
 functionality.
 
+## dreditor is now being maintained here https://github.com/unicorn-fail/dreditor
+
 ## Installation
 To install Dreditor in your browser, visit https://dreditor.github.io
 
