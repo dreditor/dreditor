@@ -137,3 +137,17 @@ Drupal.dreditor.issue.getSelectedVersionCoreContrib = function() {
     return false;
   }
 };
+
+/**
+ * Gets the selected Drupal version.
+ *
+ * Variations:
+ *   D7
+ *   D8
+ */
+Drupal.dreditor.issue.getSelectedDrupalVersion = function() {
+  var version = Drupal.dreditor.issue.getSelectedVersionCore();
+  var split = version.split('.');
+
+  return 'D' + split[0];
+};
