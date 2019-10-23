@@ -104,7 +104,7 @@ Proceed with publishing the newly built extensions.
 
 Examples assume that:
 * Current version is `1.2.5` and new version is `1.2.6`.
-* `origin` refers to [unicorn-fail/dreditor.org]
+* `origin` refers to [unicorn-fail/dreditor.github.io]
 
 
 ### Chrome
@@ -121,7 +121,7 @@ Examples assume that:
 
 ### Firefox and Safari
 
-1. Change to your local clone of [unicorn-fail/dreditor.org].
+1. Change to your local clone of [unicorn-fail/dreditor.github.io].
 
 1. Ensure that you have the latest code and HEAD is clean:
 
@@ -162,7 +162,7 @@ Examples assume that:
             <key>URL</key>
     ```
 
-1. Commit and push the new releases to [unicorn-fail/dreditor.org]:
+1. Commit and push the new releases to [unicorn-fail/dreditor.github.io]:
 
     ```sh
     $ git add -u
@@ -174,11 +174,11 @@ Examples assume that:
 
     ```sh
     $ sudo su
-    $ cd /var/www/sites/dreditor.org
+    $ cd /var/www/sites/dreditor.github.io
     $ git pull
     ```
 
 
-[build page]: https://dreditor.org/development/build#tags
+[build page]: https://dreditor.github.io/development/build#tags
 [unicorn-fail/dreditor]: https://github.com/unicorn-fail/dreditor
-[unicorn-fail/dreditor.org]: https://github.com/unicorn-fail/dreditor.org
+[unicorn-fail/dreditor.github.io]: https://github.com/unicorn-fail/dreditor.github.io

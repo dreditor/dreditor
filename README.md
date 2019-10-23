@@ -18,7 +18,7 @@ The development process is powered by [Node.js](http://nodejs.org) and
 Setting up a local development environment just takes a few minutes; it's all
 automated.
 
-Check the [Contributing](https://dreditor.org/development/contributing) page to
+Check the [Contributing](https://dreditor.github.io/development/contributing) page to
 learn more.
 
 ### Maintainers

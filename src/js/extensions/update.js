@@ -3,7 +3,7 @@
  * Checks for Dreditor updates every once in a while.
  */
 Drupal.dreditor.updateCheck = function () {
-  if (window.location.hostname === 'dreditor.org') {
+  if (window.location.hostname === 'dreditor.github.io') {
     return;
   }
   // Do not update check for any webkit based browsers, they are extensions and
@@ -49,8 +49,8 @@ Drupal.dreditor.updateCheck = function () {
       }
     }
     if (latestVersion > installedVersion) {
-      if (window.confirm('A new version of Dreditor is available: ' + latestVersion + '. Your current installed version of Dreditor is: ' + installedVersion + '. Would you like to visit https://dreditor.org and update?')) {
-        window.open('https://dreditor.org', 'dreditor');
+      if (window.confirm('A new version of Dreditor is available: ' + latestVersion + '. Your current installed version of Dreditor is: ' + installedVersion + '. Would you like to visit https://dreditor.github.io and update?')) {
+        window.open('https://dreditor.github.io', 'dreditor');
       }
     }
     if (window.console) {
